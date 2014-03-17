@@ -5,3 +5,14 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Activity.create([
+  {
+    name: 'Brighton trip',
+    description: 'Trip to Brighton'
+  },
+  {
+    name: 'Sherlock Holmes tour',
+    description: 'Tour about Sherlock Holmes'
+  }
+])
