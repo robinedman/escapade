@@ -36,7 +36,7 @@ class ActivitiesController < ApplicationController
   def destroy
     @activity = Activity.find(params[:id])
     @activity.destroy
-    redirect_to activities_url, alert: "Movie deleted!"
+    redirect_to activities_url, alert: "Activity deleted!"
   end
 
   private
